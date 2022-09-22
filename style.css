@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    
+    background-position: top center;
+    background-size: 100% auto;
+    background-color:#121214;
+    margin: 20px auto;
+    background-image: url(./assets/bg2.jpg);
+    background-repeat: no-repeat;
+}
+
+
+main {
+    
+    max-width: 520px;
+    max-height: 894px;
+    width: 80%;
+    height: 80%;
+    padding: 24px 32px 32px;
+    gap: 24px;
+    display: grid;
+    margin: 0 auto;
+    
+}
+
+section {
+    
+    padding: 5px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 10px;
+}
+
+div {
+    border: 1px;
+    padding: 15px 0px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    background-color:#121214;
+    
+}
+
+.Tiktok { 
+    
+    padding-right: 50px;
+   
+}
+
+.LiveMe {
+    padding-right: 50px;
+}
+
+.Instagram {
+    padding-right: 10px;
+}
+
+header div {
+    width: 120px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 4px;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+
+}
+
+header img {
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+}
+
+header {
+    margin-bottom: 50px;
+    letter-spacing: -0.18px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+/* Animation */
+
+section {
+
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+header div {
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
