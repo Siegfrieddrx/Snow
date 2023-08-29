@@ -4,7 +4,7 @@
 
 Projeto encomendado pela streamer @snowcuttte
 
-[ 🔗 Clique aqui para acessar!](https://siegfrieddrx.github.io/snow)
+[ 🔗 Clique aqui para acessar!](https://mathferreira14.github.io/snow)
 
 ## 🛠 Tecnologias
 
